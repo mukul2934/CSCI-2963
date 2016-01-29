@@ -28,3 +28,13 @@ Installed tree.
 6.![regex](images/reg6.png)
 
 7.![regex](images/reg7.png)
+
+### Regex Crossword
+
+1.![regex](images/regP1.png)
+
+2.![regex](images/regP2.png)
+
+3.![regex](images/regP3.png)
+
+4.![regex](images/regP4.png)
