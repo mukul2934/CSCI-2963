@@ -52,4 +52,4 @@ Installed tree.
 
 ## g. Reflection
 
-I am interested in doing project in web development or iOS. I have experience in both. I am considering looking in to WebRTC to see if there is anything cool that I can make.
+I am interested in doing a project in web development, iOS, or both. I have experience in both. I am considering looking into WebRTC to see if there is anything cool that I can make.
