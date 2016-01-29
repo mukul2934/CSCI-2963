@@ -38,3 +38,18 @@ Installed tree.
 3.![regex](images/regP3.png)
 
 4.![regex](images/regP4.png)
+
+## f. Blockly
+
+### Solution
+
+![solution](images/solution.png)
+
+### Proof
+
+![proof](images/blocky.png)
+
+
+## g. Reflection
+
+I am interested in doing project in web development or iOS. I have experience in both. I am considering looking in to WebRTC to see if there is anything cool that I can make.
