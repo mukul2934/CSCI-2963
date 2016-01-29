@@ -10,3 +10,21 @@
 
 Installed tree.
 ![Tree](images/tree.png)
+
+## e. Regex
+
+### Interactive Problems
+
+1.![regex](images/reg1.png)
+
+2.![regex](images/reg2.png)
+
+3.![regex](images/reg3.png)
+
+4.![regex](images/reg4.png)
+
+5.![regex](images/reg5.png)
+
+6.![regex](images/reg6.png)
+
+7.![regex](images/reg7.png)
