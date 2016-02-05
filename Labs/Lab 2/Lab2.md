@@ -29,3 +29,6 @@
 | SplitScreen  | Yes     | Apache License  |
 | GoMuellerWeb | Yes     | MIT License     |
 | CrowdCop     | Yes     | Apache License  |
+
+### 10. Possible project
+- A project that I'am considering to work on is a tool to visualize the amount of traffic that is flowing through micro-services. It could be used to identify potential bottle necks and areas where optimizations could be made. Many large companies like Netflix have their own internal tools that function in a similar manner. I would like to create an open-source version that other companies can use. They would also have the freedom to change it in any way to adapt it to their needs. Thus the best license for this would be the LGPL license.
