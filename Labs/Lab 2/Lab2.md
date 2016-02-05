@@ -8,3 +8,6 @@
 
 ### 4. Why the Web beat Gopher
 - I agree with the author of this article. Personally I believe that the main reason as to why Gopher failed to beat the web was because the web has much better infrastructure. The technology that Gopher used would be unable to support the web traffic that exists today.
+
+### 5. Android uses Apache license 2.0 and its kernel uses GPL v2
+- Google hopes to promote third-party mobile software development and foster a broad developer community on top of Android's Linux-based mobile platform. They chose the  Apache license because it is a permissive license that is conducive to commercial development. Unlike other licenses (GPL), the Apache license also allows for the redistribution of code. 
