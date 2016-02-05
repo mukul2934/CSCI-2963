@@ -14,3 +14,7 @@
 
 ### 6. Example project: License
 - One example project would be to create a micro-service monitor that would allow one to visualize the amount of traffic flowing through each service. The best license to use for this type of project would be an MIT license. It is short and too the point and allows people to do anything they want with the code as long as they provide attribution back to you.
+
+
+### 7. GPL, LGPL, Apache/BSD
+- The Apache license is a lot like the BSD license. It is simple and you are not required to distribute the source code. Additionally you do not have to worry about "infecting" a derived work. The GPL license is a copyleft license that requires anyone who distributes your code or a derivative work to make the source available under the same terms. The LGPL licenses is similar to the GPL license. LGPL allows you to use and distribute the open source software with your application without releasing the source code for your application. The Apache license would be the best for a developer since it is quick and easy. The the GPL license would be the best for the common good because it has no restrictions and is truly open. Lastly the LGPL license would be ideal for a company because it will allow them to use open source libraries in their product without them having to release the products source code.
