@@ -1,7 +1,7 @@
 # Lab 3
 
 ## Part 1
-[Lab3Part1]('https://github.com/mukulio/Lab3Part1')
+[Lab3Part1](https://github.com/mukulio/Lab3Part1)
 
 ### 4.
 ![image](gitk.png)
@@ -9,7 +9,7 @@
 
 ## Part 2
 
-[Link to forked repo]('https://github.com/mukulio/Spoon-Knife')
+[Link to forked repo](https://github.com/mukulio/Spoon-Knife)
 
 ### Learn Git Branching
 
