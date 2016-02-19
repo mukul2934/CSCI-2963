@@ -1,0 +1,15 @@
+Index: pre-unlock
+===================================================================
+--- pre-unlock	(revision 48196)
++++ pre-unlock	(working copy)
+@@ -21,7 +21,7 @@
+ # and STDERR is returned to the client.
+ 
+ # On a Unix system, the normal procedure is to have 'pre-unlock'
+-# invoke other programs to do the real work, though it may do the
++# invoke other programs to do the real work though it may do the
+ # work itself too.
+ #
+ # Note that 'pre-unlock' must be executable by the user(s) who will
+
+
