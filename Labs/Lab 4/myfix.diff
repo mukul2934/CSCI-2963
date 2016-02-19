@@ -1,0 +1,16 @@
+Index: books.xml
+===================================================================
+--- books.xml	(revision 48199)
++++ books.xml	(working copy)
+@@ -296,11 +296,6 @@
+       </li>
+ 
+       <li>
+-	<p><a href="http://www.nber.org/amd.html">Getting started with
+-	    AMD on FreeBSD</a></p>
+-      </li>
+-
+-      <li>
+ 	<p><a
+ 	    href="http://software.intel.com/sites/default/files/profiling_debugging_freebsd_kernel_321772.pdf">Profiling
+ 	    and Debugging the FreeBSD Kernel</a></p>
