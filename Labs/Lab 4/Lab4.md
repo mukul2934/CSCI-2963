@@ -12,5 +12,5 @@
 ### Comma Error Bug Submitted
 ![comma](commaError.png)
 
-### Broken Lin 1 Bug Submitted
+### Broken Link Bug Submitted
 ![brokenLink](brokenLink.jpg)
