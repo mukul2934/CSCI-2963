@@ -14,3 +14,7 @@
 
 ### Broken Link Bug Submitted
 ![brokenLink](brokenLink.jpg)
+
+
+### Apple vs. FBI
+Apple should not have to create a back-door to their system. The FBI claims the back-door software will be used only once on one phone. This is a valid point and may make it seem like it is no big deal. However what people fail to realize is that once the back-door is created then it will forever be a method for hackers to find a way into any persons phone.
