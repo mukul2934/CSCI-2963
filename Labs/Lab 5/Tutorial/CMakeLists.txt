@@ -17,3 +17,5 @@ include_directories("${PROJECT_BINARY_DIR}")
 
 # add the executable
 add_executable(Tutorial tutorial.cxx)
+
+add_library(MathFunctions mysqrt.cxx)
