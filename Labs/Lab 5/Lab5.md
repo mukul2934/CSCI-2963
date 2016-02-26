@@ -3,7 +3,7 @@
 ## Step 1 (A Basic Starting Point)
 
 #### tutorial.cxx
-```
+``` python
 // A simple program that computes the square root of a number
 #include <stdio.h>
 #include <stdlib.h>
@@ -29,7 +29,7 @@ int main (int argc, char *argv[]) {
 ```
 
 #### CMakeLists.txt
-```
+``` 
 cmake_minimum_required (VERSION 2.6)
 project (Tutorial)
 # The version number.
