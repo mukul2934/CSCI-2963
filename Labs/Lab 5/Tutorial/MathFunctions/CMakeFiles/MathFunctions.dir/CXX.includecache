@@ -7,4 +7,6 @@
 #IncludeRegexTransform: 
 
 /Users/Mukul/Dropbox/RPI/Spring 2016/Introduction to Open Source/Labs/Lab 5/Tutorial/MathFunctions/mysqrt.cxx
+math.h
+-
 

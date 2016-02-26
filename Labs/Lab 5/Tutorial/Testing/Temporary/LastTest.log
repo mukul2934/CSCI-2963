@@ -1,10 +1,10 @@
-Start testing: Feb 26 12:58 EST
+Start testing: Feb 26 13:08 EST
 ----------------------------------------------------------
 1/8 Testing: TutorialRuns
 1/8 Test: TutorialRuns
 Command: "/Users/Mukul/Dropbox/RPI/Spring 2016/Introduction to Open Source/Labs/Lab 5/Tutorial/Tutorial" "25"
 Directory: /Users/Mukul/Dropbox/RPI/Spring 2016/Introduction to Open Source/Labs/Lab 5/Tutorial
-"TutorialRuns" start time: Feb 26 12:58 EST
+"TutorialRuns" start time: Feb 26 13:08 EST
 Output:
 ----------------------------------------------------------
 The square root of 25 is 5
@@ -12,7 +12,7 @@ The square root of 25 is 5
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"TutorialRuns" end time: Feb 26 12:58 EST
+"TutorialRuns" end time: Feb 26 13:08 EST
 "TutorialRuns" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -20,18 +20,18 @@ Test Passed.
 2/8 Test: TutorialUsage
 Command: "/Users/Mukul/Dropbox/RPI/Spring 2016/Introduction to Open Source/Labs/Lab 5/Tutorial/Tutorial"
 Directory: /Users/Mukul/Dropbox/RPI/Spring 2016/Introduction to Open Source/Labs/Lab 5/Tutorial
-"TutorialUsage" start time: Feb 26 12:58 EST
+"TutorialUsage" start time: Feb 26 13:08 EST
 Output:
 ----------------------------------------------------------
 /Users/Mukul/Dropbox/RPI/Spring 2016/Introduction to Open Source/Labs/Lab 5/Tutorial/Tutorial Version 1.0
 Usage: /Users/Mukul/Dropbox/RPI/Spring 2016/Introduction to Open Source/Labs/Lab 5/Tutorial/Tutorial number
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Pass Reason:
 Required regular expression found.Regex=[Usage:.*number
 ]
-"TutorialUsage" end time: Feb 26 12:58 EST
+"TutorialUsage" end time: Feb 26 13:08 EST
 "TutorialUsage" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -39,7 +39,7 @@ Required regular expression found.Regex=[Usage:.*number
 3/8 Test: TutorialComp4
 Command: "/Users/Mukul/Dropbox/RPI/Spring 2016/Introduction to Open Source/Labs/Lab 5/Tutorial/Tutorial" "4"
 Directory: /Users/Mukul/Dropbox/RPI/Spring 2016/Introduction to Open Source/Labs/Lab 5/Tutorial
-"TutorialComp4" start time: Feb 26 12:58 EST
+"TutorialComp4" start time: Feb 26 13:08 EST
 Output:
 ----------------------------------------------------------
 The square root of 4 is 2
@@ -49,7 +49,7 @@ Test time =   0.00 sec
 Test Pass Reason:
 Required regular expression found.Regex=[4 is 2
 ]
-"TutorialComp4" end time: Feb 26 12:58 EST
+"TutorialComp4" end time: Feb 26 13:08 EST
 "TutorialComp4" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -57,7 +57,7 @@ Required regular expression found.Regex=[4 is 2
 4/8 Test: TutorialComp9
 Command: "/Users/Mukul/Dropbox/RPI/Spring 2016/Introduction to Open Source/Labs/Lab 5/Tutorial/Tutorial" "9"
 Directory: /Users/Mukul/Dropbox/RPI/Spring 2016/Introduction to Open Source/Labs/Lab 5/Tutorial
-"TutorialComp9" start time: Feb 26 12:58 EST
+"TutorialComp9" start time: Feb 26 13:08 EST
 Output:
 ----------------------------------------------------------
 The square root of 9 is 3
@@ -67,7 +67,7 @@ Test time =   0.00 sec
 Test Pass Reason:
 Required regular expression found.Regex=[9 is 3
 ]
-"TutorialComp9" end time: Feb 26 12:58 EST
+"TutorialComp9" end time: Feb 26 13:08 EST
 "TutorialComp9" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -75,7 +75,7 @@ Required regular expression found.Regex=[9 is 3
 5/8 Test: TutorialComp5
 Command: "/Users/Mukul/Dropbox/RPI/Spring 2016/Introduction to Open Source/Labs/Lab 5/Tutorial/Tutorial" "5"
 Directory: /Users/Mukul/Dropbox/RPI/Spring 2016/Introduction to Open Source/Labs/Lab 5/Tutorial
-"TutorialComp5" start time: Feb 26 12:58 EST
+"TutorialComp5" start time: Feb 26 13:08 EST
 Output:
 ----------------------------------------------------------
 The square root of 5 is 2.23607
@@ -85,7 +85,7 @@ Test time =   0.00 sec
 Test Pass Reason:
 Required regular expression found.Regex=[5 is 2.236
 ]
-"TutorialComp5" end time: Feb 26 12:58 EST
+"TutorialComp5" end time: Feb 26 13:08 EST
 "TutorialComp5" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -93,7 +93,7 @@ Required regular expression found.Regex=[5 is 2.236
 6/8 Test: TutorialComp7
 Command: "/Users/Mukul/Dropbox/RPI/Spring 2016/Introduction to Open Source/Labs/Lab 5/Tutorial/Tutorial" "7"
 Directory: /Users/Mukul/Dropbox/RPI/Spring 2016/Introduction to Open Source/Labs/Lab 5/Tutorial
-"TutorialComp7" start time: Feb 26 12:58 EST
+"TutorialComp7" start time: Feb 26 13:08 EST
 Output:
 ----------------------------------------------------------
 The square root of 7 is 2.64575
@@ -103,7 +103,7 @@ Test time =   0.00 sec
 Test Pass Reason:
 Required regular expression found.Regex=[7 is 2.645
 ]
-"TutorialComp7" end time: Feb 26 12:58 EST
+"TutorialComp7" end time: Feb 26 13:08 EST
 "TutorialComp7" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -111,17 +111,17 @@ Required regular expression found.Regex=[7 is 2.645
 7/8 Test: TutorialComp25
 Command: "/Users/Mukul/Dropbox/RPI/Spring 2016/Introduction to Open Source/Labs/Lab 5/Tutorial/Tutorial" "25"
 Directory: /Users/Mukul/Dropbox/RPI/Spring 2016/Introduction to Open Source/Labs/Lab 5/Tutorial
-"TutorialComp25" start time: Feb 26 12:58 EST
+"TutorialComp25" start time: Feb 26 13:08 EST
 Output:
 ----------------------------------------------------------
 The square root of 25 is 5
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Pass Reason:
 Required regular expression found.Regex=[25 is 5
 ]
-"TutorialComp25" end time: Feb 26 12:58 EST
+"TutorialComp25" end time: Feb 26 13:08 EST
 "TutorialComp25" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -129,18 +129,18 @@ Required regular expression found.Regex=[25 is 5
 8/8 Test: TutorialComp0.0001
 Command: "/Users/Mukul/Dropbox/RPI/Spring 2016/Introduction to Open Source/Labs/Lab 5/Tutorial/Tutorial" "0.0001"
 Directory: /Users/Mukul/Dropbox/RPI/Spring 2016/Introduction to Open Source/Labs/Lab 5/Tutorial
-"TutorialComp0.0001" start time: Feb 26 12:58 EST
+"TutorialComp0.0001" start time: Feb 26 13:08 EST
 Output:
 ----------------------------------------------------------
 The square root of 0.0001 is 0.01
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Pass Reason:
 Required regular expression found.Regex=[0.0001 is 0.01
 ]
-"TutorialComp0.0001" end time: Feb 26 12:58 EST
+"TutorialComp0.0001" end time: Feb 26 13:08 EST
 "TutorialComp0.0001" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Feb 26 12:58 EST
+End testing: Feb 26 13:08 EST
