@@ -45,16 +45,29 @@ def _notComment(line):
 
 
 def _wdist(a,b):
-    """ Return simple edit distance between two words a and b. """
+    char_dict = {}
+    for c in b:
+        if c in char_dict:
+            char_dict[c] += 1
+        else:
+            char_dict[c] = 1
 
 
+    ret = 0
+    for c in a:
+        if c in char_dict:
+            char_dict.pop(c, None)
+        else:
+            ret += 1
 
-    d=abs(len(a)-len(b))
-    for k in range(0,min(len(a),len(b))):
-        if a[k] != b[k]:
-            d = d + 1
-    print d
-    return d
+    return ret
+
+    # d=abs(len(a)-len(b))
+    # for k in range(0,min(len(a),len(b))):
+    #     if a[k] != b[k]:
+    #         d = d + 1
+    # # print d
+    # return d
 
 
 def words_graph():
@@ -67,7 +80,7 @@ def words_graph():
             import gzip
             fh=gzip.open('words_dat.txt.gz','r')
         except:
-            fh=open("words_dat_4.txt","r")
+            fh=open("words_dat.txt","r")
     except IOError:
         raise "File words_dat.txt not found."
 
@@ -76,7 +89,7 @@ def words_graph():
     for line in fh.readlines():
         if line.startswith("*"):
             continue
-        w=line[0:4]
+        w=line[0:5]
         G.add_node(w)
     nwords=number_of_nodes(G)
     words=G.nodes()
@@ -86,6 +99,9 @@ def words_graph():
             sys.stderr.write(".")
         for l in xrange(k+1,nwords):
             if _wdist(words[k],words[l]) == 1:
+                if words[k] == "chaos" and words[l] == "shoes":
+                    print "THEIS"
+                    break
                 G.add_edge(words[k],words[l])
     return G
 
@@ -93,23 +109,29 @@ def words_graph():
 if __name__ == '__main__':
     from networkx import *
     G=words_graph()
+
+    # # print _wdist("chaos", "echos")
+    # # print _wdist("echos", "chore")
+    # # print _wdist("chore", "coder")
+    # print _wdist("chaos", "echos")
+
     print "Loaded words_dat.txt containing 5757 five-letter English words."
     print "Two words are connected if they differ in one letter."
     print "graph has %d nodes with %d edges"\
           %(number_of_nodes(G),number_of_edges(G))
 
-    # sp=shortest_path(G, 'chaos', 'order')
-    # print "shortest path between 'chaos' and 'order' is:\n", sp
-    #
+    sp=shortest_path(G, 'chaos', 'order')
+    print "shortest path between 'chaos' and 'order' is:\n", sp
+
     # sp=shortest_path(G, 'nodes', 'graph')
     # print "shortest path between 'nodes' and 'graph' is:\n", sp
     #
     # sp=shortest_path(G, 'moron', 'smart')
     # print "shortest path between 'nodes' and 'graph' is:\n", sp
 
-    sp=shortest_path(G, 'love', 'hate')
-    print "shortest path between 'nodes' and 'graph' is:\n", sp
+    # sp=shortest_path(G, 'love', 'hate')
+    # print "shortest path between 'nodes' and 'graph' is:\n", sp
 
 
 
-    print number_connected_components(G),"connected components"
+    # print number_connected_components(G),"connected components"

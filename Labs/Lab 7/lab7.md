@@ -5,3 +5,6 @@
 
 ### 4 length words
 ![image](part2.png)
+
+## Part Two
+![image](p3.png)
