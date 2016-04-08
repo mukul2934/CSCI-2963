@@ -7,11 +7,11 @@ library(arules)
 library(arulesViz)
 
 # Generate rules using apriori()
-rules.all <- apriori(binary, parameter=list(support=0.01, confidence=0.5))
-inspect(rules.all)
+.all <- apriori(binary, parameter=list(support=0.01, confidence=0.5))
+inspect(.all)
 
 # Rules when when people are admitted
-rules.all <- apriori(binary,
+.all <- apriori(binary,
                      parameter = list(support=0.01, confidence=0.5),
                      appearance = list(rhs = c("admit=1"), default="lhs"))
 
